@@ -54,7 +54,13 @@
       canvas /* This is a CSS sselector.  It tells the browser what elements to apply the style to.  
       In this case we specify the 'canvas' tag selector.  The browser will apply the following style to any canvas tags. */
       {
-        background-image:url("images/blue_wave_of_water-wide-1.jpg"); /* This style applies an image as the background of the element. */
+        background-image:url("images/freeimage-9298407-web.jpg"); /* This style applies an image as the background of the element. */
+        background-size:150%;
+      }
+      
+      .footer /* This is a class selector.  It applies to elements that have this class specified. */
+      {
+        font-size:6px;
       }
     </style>
   </head>
@@ -82,5 +88,6 @@
     <!-- This is our drawing canvas.  We give it the id or myCanvas so the draw() function can find it. -->
     <!-- Can you tell what the other attributes do? -->
     <canvas id="myCanvas" width="800" height="600" style="border:1px solid #000000;"></canvas>
+    <p class="footer">Pool Image | &copy; Ribe | <a href="http://www.dreamstime.com/">Dreamstime Stock Photos</a> &amp; <a href="http://www.stockfreeimages.com/">Stock Free Images</a></p>
   </body>
 </html>
