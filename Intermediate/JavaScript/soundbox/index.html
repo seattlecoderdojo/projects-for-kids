@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script language="JavaScript">
+      
+      function play(id) {         
+           document.getElementById(id).play();        
+      }
+      
+    </script>
+  </head>
+  
+  <body>
+    <H1>Welcome to Seattle Coder Dojo</H1>
+    
+    <audio id="sound1">
+      <source src="sounds/Halloween.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    
+    
+    <button onclick="play('sound1')"> Play Sound 1</button>
+    
+  </body>
+</html>
